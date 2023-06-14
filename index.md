@@ -16,8 +16,9 @@ title: Ethan's Blog
 
 </style>
 
-## Build you Home Page here
-This is about your journey. Start now!!!
+## Ethan's Website
+
+<h1>Can't wait to code, code, code!</h1>
 
 ## Overview of Hacks, Study and Tangibles
 Blogging in GitHub pages is a way to learn and code at the same time.
