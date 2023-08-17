@@ -23,7 +23,7 @@ title: Ethan's Blog
 ## About Me
 
 <html>
-<img src="https://github.com/nighthawkcoders/student/assets/109186517/3a8cec44-415a-4821-8c2d-88bea49f75c6">
+<img src="https://github.com/nighthawkcoders/student/assets/109186517/3a8cec44-415a-4821-8c2d-88bea49f75c6" height = "15px">
 </html>
 
 ## Overview of Hacks, Study and Tangibles
