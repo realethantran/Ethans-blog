@@ -20,6 +20,12 @@ title: Ethan's Blog
 
 <h1>Can't wait to code, code, code!</h1>
 
+## About Me
+
+<html>
+<img src="https://github.com/nighthawkcoders/student/assets/109186517/3a8cec44-415a-4821-8c2d-88bea49f75c6">
+</html>
+
 ## Overview of Hacks, Study and Tangibles
 Blogging in GitHub pages is a way to learn and code at the same time.
 
