@@ -26,6 +26,19 @@ title: Ethan's Blog
       font-family: "Supreme V1";
       color: black;
   }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ccc;
+  }
+  th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ccc;
+  }
+  th {
+      background-color: #f2f2f2;
+  }
 </style>
 
 <h1 class="custom-font" font-size="25px">Ethan Tran's Website</h1>
