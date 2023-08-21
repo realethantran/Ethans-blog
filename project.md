@@ -110,6 +110,3 @@ title: My Project
   </script>
 </body>
 </html>
-
-
-</html>
