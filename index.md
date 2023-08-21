@@ -29,7 +29,7 @@ title: Ethan's Blog
     }
 </style>
 
-<h1 class="custom-font" font-size="20px">Ethan Tran's Website</h1>
+<h1 font-size="20px">Ethan Tran's Website</h1>
 
 ### My Freeform Drawing
 
