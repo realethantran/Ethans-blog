@@ -35,4 +35,4 @@ title: Ethan's Blog
 
 <img src="https://github.com/nighthawkcoders/student/assets/109186517/3a8cec44-415a-4821-8c2d-88bea49f75c6" height="250px">
 
-<h1 class="custom-font" font-size="15px">Can't wait to code, code, code!</h1>
+<h1 class="custom-font" font-size="13px">I Can't wait to code, code, code!</h1>
