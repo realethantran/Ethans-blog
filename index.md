@@ -23,19 +23,16 @@ title: Ethan's Blog
         font-size: 24px;
         color: #89d4fa;
     }
-    b {
-     font-family: "Supreme V1";
-     color: black;   
+    .custom-font {
+        font-family: "Supreme V1";
+        color: black;
     }
-
 </style>
 
 ## Ethan's Website
 
 ## About Me
 
-<html>
-<img src="https://github.com/nighthawkcoders/student/assets/109186517/3a8cec44-415a-4821-8c2d-88bea49f75c6" height = "250px">
-</html>
+<img src="https://github.com/nighthawkcoders/student/assets/109186517/3a8cec44-415a-4821-8c2d-88bea49f75c6" height="250px">
 
-<h1 class="b">Can't wait to code, code, code!</h1>
+<h1 class="custom-font">Can't wait to code, code, code!</h1>
