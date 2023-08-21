@@ -21,7 +21,7 @@ title: Ethan's Blog
 
     h1 {
         font-size: 24px;
-        color: #89d4fa;
+        color: black;
     }
     .custom-font {
         font-family: "Supreme V1";
