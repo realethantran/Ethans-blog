@@ -29,15 +29,15 @@ title: Ethan's Blog
   table {
     border-collapse: collapse;
     width: 100%;
-    border: 1px solid #ccc;
+    border: 1px solid black;
   }
   th, td {
       padding: 8px;
       text-align: left;
-      border-bottom: 1px solid #ccc;
+      border-bottom: 1px solid black;
   }
   th {
-      background-color: #f2f2f2;
+      background-color: white;
   }
 </style>
 
