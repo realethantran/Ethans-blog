@@ -29,9 +29,9 @@ title: Ethan's Blog
     }
 </style>
 
-## Ethan's Website
+<h1 class="custom-font" font-size="20px">Ethan Tran's Website</h1>
 
-## About Me
+### My Freeform Drawing
 
 <img src="https://github.com/nighthawkcoders/student/assets/109186517/3a8cec44-415a-4821-8c2d-88bea49f75c6" height="250px">
 
