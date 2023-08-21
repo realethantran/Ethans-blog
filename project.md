@@ -63,7 +63,7 @@ title: My Project
 
 <html>
 <body>
-  <h1>Simple Calculator</h1>
+  <h1 class="custom-font">Basic Calculator</h1>
   <div id="calculator">
     <input type="text" id="result" readonly>
     <br>
