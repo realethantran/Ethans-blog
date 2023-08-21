@@ -7,6 +7,7 @@ title: Ethan's Blog
     body {
         font-family: Arial, sans-serif;
         line-height: 1.6;
+        background-color: rgb(188, 158, 130);
     }
 
     h1 {
