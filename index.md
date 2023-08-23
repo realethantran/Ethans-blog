@@ -50,7 +50,9 @@ title: Ethan's Blog
 <button onClick="changeColor()"></button>
 
 <script>
-    document.body.style.backgroundColor="red";
+    changeColor() {
+        document.body.style.backgroundColor="red";
+    }
 </script>
 
 ### My Freeform Drawing
