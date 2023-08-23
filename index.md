@@ -47,11 +47,11 @@ title: Ethan's Blog
 
 <h1 class="custom-font" font-size="25px">Ethan Tran's Website</h1>
 
-<button onClick="changeColor()"></button>
+<button onClick="changeColor()">Click me</button>
 
 <script>
-    changeColor() {
-        document.body.style.backgroundColor="red";
+    function changeColor() {
+        document.body.style.backgroundColor = "red";
     }
 </script>
 
