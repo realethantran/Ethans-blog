@@ -47,12 +47,16 @@ title: Ethan's Blog
 
 <h1 class="custom-font" font-size="25px">Ethan Tran's Website</h1>
 
-<button onClick="changeColor()">Random Color</button>
+<button onClick="altTheme()">Alternate Theme</button>
 <button onClick="revertColor()">Revert</button>
 
 <script>
-    function changeColor() {
-        document.body.style.backgroundColor = "red";
+    function altTheme() {
+        document.body.style.backgroundColor = "black";
+        document.querySelectorAll(".custom-font").forEach(element => {
+            element.style.color = "white"; // Change custom font elements' color to white
+        });
+
     }
     function revertColor() {
         document.body.style.backgroundColor = "white";
