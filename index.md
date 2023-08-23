@@ -47,7 +47,8 @@ title: Ethan's Blog
 
 <h1 class="custom-font" font-size="25px">Ethan Tran's Website</h1>
 
-<button onClick="changeColor()">Click me</button>
+<button onClick="changeColor()">Random Color</button>
+<button onClick="revertColor()">Revert</button>
 
 <script>
     function changeColor() {
