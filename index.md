@@ -47,6 +47,12 @@ title: Ethan's Blog
 
 <h1 class="custom-font" font-size="25px">Ethan Tran's Website</h1>
 
+<button onClick="changeColor()"></button>
+
+<script>
+    document.body.style.backgroundColor="red";
+</script>
+
 ### My Freeform Drawing
 
 <p>I can't wait to code, code, code!</p>
