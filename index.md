@@ -53,6 +53,10 @@ title: Ethan's Blog
     function changeColor() {
         document.body.style.backgroundColor = "red";
     }
+    function revertColor() {
+        document.body.style.backgroundColor = "white";
+
+    }
 </script>
 
 ### My Freeform Drawing
