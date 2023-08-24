@@ -56,7 +56,7 @@ title: Ethan's Blog
         document.querySelectorAll(".custom-font").forEach(element => {
             element.style.color = "white"; 
          document.querySelectorAll(".h1").forEach(element => {
-            element.style.color = "white"; 
+            element.style.color = "rgb(247, 247, 247)"; 
             });
         });
     }
@@ -74,7 +74,7 @@ title: Ethan's Blog
 <p>I can't wait to code, code, code!</p>
 
 <img src="https://github.com/nighthawkcoders/student/assets/109186517/3a8cec44-415a-4821-8c2d-88bea49f75c6" height="275px">
-
+<img src="https://github.com/rachit-j/Rackets-Blog/assets/109186517/0936df9f-efa9-4a72-b37e-ca09fa3a41b1" height ="275px">
 <head>
 </head>
 <body>
