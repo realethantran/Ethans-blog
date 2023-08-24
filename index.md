@@ -161,8 +161,7 @@ title: Ethan's Blog
                 <td>Mr. Froom</td>
             </tr>
 
-<html>
-<body>
+<div></div>
   <h1 class="custom-font">Basic Calculator</h1>
   <div id="calculator">
     <input type="text" id="result" readonly>
@@ -208,4 +207,3 @@ title: Ethan's Blog
       }
     }
   </script>
-</body>
