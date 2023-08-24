@@ -126,6 +126,7 @@ title: Ethan's Blog
 
 <img src="https://github.com/nighthawkcoders/student/assets/109186517/3a8cec44-415a-4821-8c2d-88bea49f75c6" height="275px">
 <img src="https://github.com/rachit-j/Rackets-Blog/assets/109186517/0936df9f-efa9-4a72-b37e-ca09fa3a41b1" height ="275px">
+<img src="https://github.com/realethantran/ethan_student/assets/109186517/b1ad8fc5-6588-47f5-9e4e-c4e0653ddcb5" height="275px">
 <head>
 </head>
 <body>
