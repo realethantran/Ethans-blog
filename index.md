@@ -99,7 +99,7 @@ title: Ethan's Blog
 <h1 class="custom-font" font-size="25px">Ethan Tran's Website</h1>
 
 <button class="alt" onClick="altTheme()">Alt</button>
-<button class="revert" onClick="revertColor()">Undo</button>
+<button class="revert" onClick="revertColor()">OG</button>
 
 <script>
     function altTheme() {
