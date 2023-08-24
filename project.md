@@ -28,11 +28,7 @@ title: My Project
       color: black;
   }
   	#calculator {
-    width: 300px;
     margin: 0 auto;
-    background-color: #fff;
-    border: 2px solid #000;
-    border-radius: 10px;
     padding: 20px;
   }
 
