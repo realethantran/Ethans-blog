@@ -39,10 +39,10 @@ title: My Project
   #result {
     width: 100%;
     margin-bottom: 10px;
-    padding: 10px;
+    padding: 5px;
     font-size: 20px;
     border: 2px solid #000;
-    border-radius: 5px;
+    border-radius: 2px;
   }
 
   button {
@@ -67,29 +67,29 @@ title: My Project
   <div id="calculator">
     <input type="text" id="result" readonly>
     <br>
-    <button onclick="appendToResult('1')">1</button>
-    <button onclick="appendToResult('2')">2</button>
-    <button onclick="appendToResult('3')">3</button>
-    <button onclick="appendToResult('+')">+</button>
+    <button onclick="addToResult('1')">1</button>
+    <button onclick="addToResult('2')">2</button>
+    <button onclick="addToResult('3')">3</button>
+    <button onclick="addToResult('+')">+</button>
     <br>
-    <button onclick="appendToResult('4')">4</button>
-    <button onclick="appendToResult('5')">5</button>
-    <button onclick="appendToResult('6')">6</button>
-    <button onclick="appendToResult('-')">-</button>
+    <button onclick="addToResult('4')">4</button>
+    <button onclick="addToResult('5')">5</button>
+    <button onclick="addToResult('6')">6</button>
+    <button onclick="addToResult('-')">-</button>
     <br>
-    <button onclick="appendToResult('7')">7</button>
-    <button onclick="appendToResult('8')">8</button>
-    <button onclick="appendToResult('9')">9</button>
-    <button onclick="appendToResult('*')">*</button>
+    <button onclick="addToResult('7')">7</button>
+    <button onclick="addToResult('8')">8</button>
+    <button onclick="addToResult('9')">9</button>
+    <button onclick="addToResult('*')">*</button>
     <br>
-    <button onclick="appendToResult('0')">0</button>
+    <button onclick="addToResult('0')">0</button>
     <button onclick="calculate()">=</button>
-    <button onclick="clearResult()">C</button>
-    <button onclick="appendToResult('/')">/</button>
+    <button onclick="clearResult()">A/C</button>
+    <button onclick="addToResult('/')">/</button>
   </div>
   
   <script>
-    function appendToResult(value) {
+    function addToResult(value) {
       document.getElementById('result').value += value;
     }
 
