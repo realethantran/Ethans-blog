@@ -130,7 +130,7 @@ title: Ethan's Blog
 <head>
 </head>
 <body>
-    <h2 class="custom-font">My Schedule</h1>
+    <h2 class="custom-font">My Schedule</h2>
     <table>
         <thead>
             <tr>
