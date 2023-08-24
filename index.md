@@ -52,15 +52,20 @@ title: Ethan's Blog
 
 <script>
     function altTheme() {
-        document.body.style.backgroundColor = "black";
+        document.body.style.backgroundColor =  "rgb(44, 45, 48)";
         document.querySelectorAll(".custom-font").forEach(element => {
-            element.style.color = "white"; // Change custom font elements' color to white
+            element.style.color = "white"; 
+         document.querySelectorAll(".h1").forEach(element => {
+            element.style.color = "white"; 
+            });
         });
-
     }
     function revertColor() {
         document.body.style.backgroundColor = "white";
+        document.querySelectorAll(".custom-font").forEach(element => {
+        element.style.color = "black"; 
 
+    });
     }
 </script>
 
