@@ -85,12 +85,18 @@ title: Ethan's Blog
   button:hover {
     background-color: #d0d0d0;
   }
+  .alt {
+    background-color: white;
+  }
+  .revert {
+    background-color: white;
+  }
 </style>
 
 <h1 class="custom-font" font-size="25px">Ethan Tran's Website</h1>
 
-<button onClick="altTheme()">Alternate Theme</button>
-<button onClick="revertColor()">Revert</button>
+<button class="alt" onClick="altTheme()">Alternate Theme</button>
+<button class="revert" onClick="revertColor()">Revert</button>
 
 <script>
     function altTheme() {
