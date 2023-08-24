@@ -86,17 +86,20 @@ title: Ethan's Blog
     background-color: #d0d0d0;
   }
   .alt {
-    background-color: white;
+    background-color: rgb(44, 45, 48);
+    color: white;
   }
+
   .revert {
     background-color: white;
+    color: black;
   }
 </style>
 
 <h1 class="custom-font" font-size="25px">Ethan Tran's Website</h1>
 
-<button class="alt" onClick="altTheme()">Alternate Theme</button>
-<button class="revert" onClick="revertColor()">Revert</button>
+<button class="alt" onClick="altTheme()">Alt</button>
+<button class="revert" onClick="revertColor()">Undo</button>
 
 <script>
     function altTheme() {
