@@ -16,11 +16,15 @@ title: Organizer
     padding: 8px;
     text-align: center;
   }
+  .custom-font {
+      font-family: "Supreme V1";
+      color: black;
+  }
 </style>
 </head>
 <body>
 
-<h2>Work Organizer</h2>
+<h2 class="custom-font">Work Organizer</h2>
 
 <table>
   <tr>
