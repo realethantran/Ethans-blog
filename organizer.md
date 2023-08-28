@@ -1,3 +1,8 @@
+---
+layout: default
+title: Organizer
+---
+
 <html>
 <head>
 <style>
