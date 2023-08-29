@@ -39,10 +39,11 @@ title: Organizer
     <td>0</td>
     <td><a>Tools and Software Development Processes</a></td>
     <td><a href="https://github.com/realethantran/ethan_student/issues/1">Week 0 Hacks</a></td>
-    <td><a href=""></a></td>
+    <td><a href="https://ethan.nighthawkcodingsociety.com/c1.4/2023/08/20/First-Blog.html"></a><a href=""></a>
+    </td>
     <td><a>This week was a lot of setup, Tay and I were able to help each other out (I helped with setting up the website and Tay helped me with installing Java). Overall, this week had a lot of focus on personalizing our websites and making sure everything worked as they should.</a>
     </td>
-    <td><a href=""></a></td>
+    <td><a href="https://ethan.nighthawkcodingsociety.com/2023/08/20/tools-equipment-hacks.html"></a></td>
   </tr>
   <tr>
     <td>1</td>
