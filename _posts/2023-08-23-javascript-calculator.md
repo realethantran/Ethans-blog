@@ -1,6 +1,6 @@
 ---
 title: JS Calculator
-comments: true
+comments: False
 hide: true
 layout: post
 description: A common way to become familiar with a language is to build a calculator.  This calculator shows off button with actions.

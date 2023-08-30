@@ -1,6 +1,6 @@
 ---
 toc: True
-comments: True
+comments: False
 layout: post
 title: Java Console Games
 description: None
