@@ -9,7 +9,6 @@ tags: [javascript]
 courses: { csse: {week: 0}, csp: {week: 0, categories: [4.A]}, csa: {week: 2} }
 ---
 
-<!-- {% include nav_frontend.html %} -->
 
 <style>
 

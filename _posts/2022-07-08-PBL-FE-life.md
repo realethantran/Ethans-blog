@@ -8,7 +8,6 @@ tags: [javascript]
 courses: { csse: {week: }, csp: {week: 0, categories: [4.A]}, csa: {week: 2} }
 ---
 
-<!-- {% include nav_frontend.html %} -->
 
 {% comment %}
 Conway's Game of Life https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
