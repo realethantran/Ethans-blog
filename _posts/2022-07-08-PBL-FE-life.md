@@ -1,10 +1,11 @@
 ---
 title: Game of Life
-layout: base
+layout: post
 description: A remix of Conway's game of life using timer, onclick and algorithms.
 permalink: /frontend/life
 image: /images/game_of_life.svg
 tags: [javascript]
+courses: { csse: {week: }, csp: {week: 0, categories: [4.A]}, csa: {week: 2} }
 ---
 
 {% include nav_frontend.html %}
