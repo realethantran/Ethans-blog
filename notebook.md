@@ -24,7 +24,7 @@ title: Notebook
 </head>
 <body>
 
-<h2 class="custom-font">Work Organizer</h2>
+<h2 class="custom-font">Notebook Organizer</h2>
 </body>
 </html>
 
