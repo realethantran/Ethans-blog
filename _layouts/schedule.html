@@ -3,6 +3,15 @@ layout: default
 ---
 
 <style>
+  @font-face {
+  font-family: "Supreme V1";
+  src: url("https://db.onlinewebfonts.com/t/f462af0a8168d0a315da1c8d3fcf419b.eot");
+  src: url("https://db.onlinewebfonts.com/t/f462af0a8168d0a315da1c8d3fcf419b.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/f462af0a8168d0a315da1c8d3fcf419b.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/f462af0a8168d0a315da1c8d3fcf419b.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/f462af0a8168d0a315da1c8d3fcf419b.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/f462af0a8168d0a315da1c8d3fcf419b.svg#Supreme V1")format("svg");
+  } 
   body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -10,9 +19,8 @@ layout: default
     background-color: white;
   }
   h1 {
-    text-align: center;
     padding: 20px;
-    color: #fff;
+    color: black;
   }
   h2 {
     margin-top: 20px;
@@ -40,6 +48,10 @@ layout: default
   a:hover {
     text-decoration: underline;
   }
+  .custom-font {
+      font-family: "Supreme V1";
+      color: black;
+  }
 </style>
 
 {%comment%} 
@@ -50,7 +62,7 @@ Setup course data
 
 {% assign course = site.data[page.course] %} <!-- Load YML data -->
 {% assign units = page.units | split: ',' %}
-<h1>{{page.title}}</h1>
+<h1 class="custom-font">{{page.title}}</h1>
 <br>
 
 {%comment%} 
