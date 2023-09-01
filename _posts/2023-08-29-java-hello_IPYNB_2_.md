@@ -10,6 +10,10 @@ courses: {'csa': {'week': 1}}
 
 The beginning of the code defines the SuperHero class with private instance variables. The SuperHero class has a default constructor that initializes the instance variables to empty values.
 
+<html>
+<img src="https://github.com/realethantran/ethan_student/assets/109186517/936e9858-7a69-495b-ac6d-9b1a04ee6e36" height="350px">
+</html>
+
 
 ```java
 // class definition for SuperHero
@@ -26,6 +30,14 @@ public class SuperHero {
         Affiliation = "";
         SecretIdentity = "";
         Powers = "";
+    }
+
+    // parameterized constructor
+    public SuperHero(String name, String, Affiliation, String SecretIdentity, String Powers) {
+        this.Name = name;
+        this.Affiliation = affiliation;
+        this.SecretIdentity = secretIdentity;
+        this.Powers = powers;
     }
 
     // setters to set the values of instance variables
@@ -65,7 +77,6 @@ public class SuperHero {
     public static void main(String[] args) {
         // create an instance using the default constructor
         SuperHero batman = new SuperHero();
-        SuperHero ultimate_spiderman = newSuperHero()
 
         // set the attributes of the superhero objects
         batman.setName("Batman");
@@ -73,10 +84,8 @@ public class SuperHero {
         batman.setSecretIdentity("Bruce Wayne");
         batman.setPowers("None");
 
-        ultimate_spiderman.setName("Spiderman");
-        ultimate_spiderman.setAffiliation("Champions");
-        ultimate_spiderman.setSecretIdentity("Miles Morales");
-        ultimate_spiderman.setPower("Super strength, super speed, agility, cling to solid surfaces, invisibility, and venom strike.")
+        // create an instance using the parameterized constructor
+        SuperHero ultimate_spiderman=("Spiderman", "Champions","Miles Morales", "Super strength, super speed, agility, cling to solid surfaces, invisibility, and venom strike.")
 
         // use getters to  retrieve and print the values of the attributes
         System.out.println("Name: " + batman.getName());
