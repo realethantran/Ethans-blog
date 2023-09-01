@@ -1,6 +1,8 @@
 ---
 layout: default
-title: My Project
+title: Calculator
+courses: { csa: {week: 1} }
+type: tangibles
 ---
 
 <style>
