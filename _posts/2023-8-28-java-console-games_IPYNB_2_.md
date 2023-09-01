@@ -1,6 +1,6 @@
 ---
 toc: True
-comments: False
+comments: True
 layout: post
 title: Java Console Games
 description: None
@@ -8,7 +8,10 @@ type: hacks
 courses: {'csse': {'week': 1}, 'csp': {'week': 0, 'categories': []}, 'csa': {'week': 0}}
 ---
 
-```Java
+After thinking to myself and talking with my teammate, Tay, wefound that it would be best to put each of thegames in their own, indivivudal code cells.
+
+
+```java
 import java.util.Scanner; //library for user input
 import java.lang.Math; //library for random numbers
 
@@ -374,25 +377,14 @@ ConsoleGame.main(null);
     
     Choose an option.
     
-    1: Rock Paper Scissors
-    Type r for rock, p for paper, or s for scissors
-    You chose rock 
-    The computer chose rock 
-    It's a tie!
+    2: Higher or Lower
+    You have three guesses to guess the number I am thinking of between 1-8.
+    If you guess the number correctly, you win!
+    The number is higher
+    The number is higher
+    The number is higher
+    Game over.
     [0m
-    [35m___________________________
-    |~~~~~~~~~~~~~~~~~~~~~~~~~|
-    |[0m          Menu!          [35m|
-    |~~~~~~~~~~~~~~~~~~~~~~~~~|
-    | 0 - Exit                |
-    | 1 - Rock Paper Scissors |
-    | 2 - Higher or Lower     |
-    | 3 - Tic Tac Toe         |
-    |_________________________|   [0m
-    
-    Choose an option.
-    
-    java.util.InputMismatchException: Not a number, try again.
     [35m___________________________
     |~~~~~~~~~~~~~~~~~~~~~~~~~|
     |[0m          Menu!          [35m|
@@ -407,3 +399,47 @@ ConsoleGame.main(null);
     
     0: Goodbye, World![0m
 
+
+
+```java
+import java.util.Random;
+import java.util.Scanner;
+
+public class DiceRollGame {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Random random = new Random();
+
+        System.out.println("Welcome to the Dice Roll Game!");
+
+        while (true) {
+            System.out.println("\nPress Enter to roll the dice or type 'exit' to quit.");
+            String input = scanner.nextLine();
+
+            if (input.equalsIgnoreCase("exit")) {
+                System.out.println("Thanks for playing! Goodbye!");
+                break; // Exit the game loop
+            }
+
+            // Roll two dice
+            int dice1 = random.nextInt(6) + 1;
+            int dice2 = random.nextInt(6) + 1;
+
+            int total = dice1 + dice2;
+
+            System.out.println("You rolled a " + dice1 + " and a " + dice2);
+            System.out.println("Total: " + total);
+
+            if (total == 7) {
+                System.out.println("Congratulations! You rolled a lucky 7!");
+            } else {
+                System.out.println("Better luck next time!");
+            }
+        }
+
+        scanner.close();
+    }
+}
+
+```
