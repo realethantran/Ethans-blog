@@ -4,7 +4,6 @@ comments: true
 layout: post
 title: Tools and Equipment Hacks
 description: 
-type: plans
 courses: { csse: {week: 0}, csp: {week: 0, categories: []}, csa: {week: 0} }
 categories: []
 ---

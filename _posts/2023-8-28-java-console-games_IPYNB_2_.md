@@ -5,10 +5,10 @@ layout: post
 title: Java Console Games
 description: None
 type: hacks
-courses: {'csse': {'week': 1}, 'csp': {'week': 0, 'categories': []}, 'csa': {'week': 0}}
+courses: {'csa': {'week': 1}}
 ---
 
-After thinking to myself and talking with my teammate, Tay, wefound that it would be best to put each of thegames in their own, indivivudal code cells.
+After thinking to myself and talking with my teammate, Tay, we found that it would be best to put each of the games in their own, individual code cells.
 
 
 ```java

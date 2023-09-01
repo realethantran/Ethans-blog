@@ -2,6 +2,47 @@
 layout: default
 ---
 
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+  }
+  h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: #fff;
+  }
+  h2 {
+    margin-top: 20px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  th {
+    background-color: #333;
+    color: #fff;
+  }
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
+
 {%comment%} 
 Setup course data
     - Extract data by course
@@ -43,8 +84,8 @@ Load all posts with site
   <tr>
     <th>Week</th>
     <th>Plans</th>
-    <th>Hacks(Todo)</th>
-    <th>Tangibles</th>
+    <th>Blogs</th>
+    <th></th>
   </tr>
 
   {%comment%} 

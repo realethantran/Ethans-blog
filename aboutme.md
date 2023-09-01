@@ -1,6 +1,10 @@
 ---
+toc: True
 layout: default
 title: About Me
+type: hacks
+courses: {'csa': {'week': 0}}
+
 ---
 
 <style>

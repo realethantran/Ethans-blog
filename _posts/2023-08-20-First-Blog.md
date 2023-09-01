@@ -4,7 +4,6 @@ comments: true
 layout: post
 title: First Blog
 description: This is my first blog!
-type: plans
 courses: { csse: {week: 0}, csp: {week: 0, categories: [4.A]}, csa: {week: 0} }
 categories: [C1.4]
 ---

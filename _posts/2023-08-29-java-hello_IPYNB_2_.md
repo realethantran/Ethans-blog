@@ -5,7 +5,7 @@ layout: post
 title: Java Hello
 description: None
 type: hacks
-courses: {'csse': {'week': 1}, 'csp': {'week': 0, 'categories': []}, 'csa': {'week': 0}}
+courses: {'csa': {'week': 1}}
 ---
 
 The beginning of the code defines the SuperHero class with private instance variables. The SuperHero class has a default constructor that initializes the instance variables to empty values.
