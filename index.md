@@ -1,6 +1,6 @@
 ---
 layout: schedule
-title: 
+title: Time Box
 units: "1"
 course: csa
 ---
