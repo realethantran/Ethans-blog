@@ -2,7 +2,7 @@
 toc: True
 comments: True
 layout: post
-title: Java Hello
+title: Java Hello (Classes)
 description: None
 type: hacks
 courses: {'csa': {'week': 1}}

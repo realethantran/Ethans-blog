@@ -5,7 +5,7 @@ layout: post
 title: Linux Install & Version Check
 description: Check for tool installations and versions
 type: hacks
-courses: {'csa': {'week': 0}}
+courses: {'csa': {'week': 1}}
 ---
 
 ```bash
