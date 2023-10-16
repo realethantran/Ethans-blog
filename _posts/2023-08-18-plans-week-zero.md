@@ -21,7 +21,6 @@ Looking Ahead:
 - Java Hello
 - Java Console Games
 - Linux Shell and Bash
-- Fix code output format
 
 <html>
 <img src="https://github.com/Emaad-Mir/emaad-github-pages1/assets/109186517/99050f1f-cbfa-493f-ba87-7f5a19184bbc" height="135px">
